@@ -1,0 +1,53 @@
+.header-anchor {
+  opacity: 0;
+  display: inline-block;
+  margin-left: 6px;
+  text-decoration: none;
+  color: #aaa;
+  transition: opacity 0.2s ease-in-out;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  display: flex;
+  align-items: center;
+}
+
+h1:hover .header-anchor,
+h2:hover .header-anchor,
+h3:hover .header-anchor,
+h4:hover .header-anchor,
+h5:hover .header-anchor,
+h6:hover .header-anchor,
+.header-anchor:focus {
+  opacity: 1;
+  text-decoration: none;
+}
+
+.header-anchor:hover {
+  color: #777;
+}
+
+.anchor-icon {
+  font-size: 0.85em;
+  vertical-align: middle;
+}
+
+.copied-tooltip {
+  position: absolute;
+  background: #333;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  margin-left: 10px;
+  opacity: 0.9;
+  pointer-events: none;
+  animation: fade-in-out 2s;
+}
+
+@keyframes fade-in-out {
+  0% { opacity: 0; }
+  10% { opacity: 0.9; }
+  80% { opacity: 0.9; }
+  100% { opacity: 0; }
+} 
