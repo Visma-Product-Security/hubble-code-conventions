@@ -2,6 +2,8 @@
 
 This repository contains coding standards and conventions for our development teams.
 
+**Documentation Website**: [https://friendly-tribble-4j89m3n.pages.github.io/](https://friendly-tribble-4j89m3n.pages.github.io/)
+
 ## Contents
 
 - [.NET Coding Standards](./docs/dotnet/README.md)
@@ -15,7 +17,7 @@ This documentation serves as a single source of truth for coding standards acros
 
 To contribute changes:
 
-1. Create a branch from `main`
+1. Create a branch from `master`
 2. Make your changes
 3. Submit a pull request for review
-4. Changes will be deployed to GitHub Pages upon merge to `main` 
+4. Changes will be deployed to GitHub Pages upon merge to `master` 
