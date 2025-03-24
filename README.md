@@ -23,6 +23,43 @@ Our .NET coding conventions cover C# best practices, formatting rules, and guide
 
 Our Angular coding conventions cover TypeScript and Angular-specific guidelines for building frontends.
 
+## Running Locally
+
+### Prerequisites
+- Ruby (version 2.7.0 or higher)
+- RubyGems
+- Bundler
+
+### Windows
+1. Install Ruby using [RubyInstaller](https://rubyinstaller.org/)
+2. Open Command Prompt or PowerShell and run:
+   ```
+   gem install bundler
+   bundle install
+   bundle exec jekyll serve
+   ```
+3. Open your browser and navigate to `http://localhost:4000`
+
+### Linux/macOS
+1. Install Ruby using your package manager or [rbenv](https://github.com/rbenv/rbenv)
+   ```bash
+   # Ubuntu/Debian
+   sudo apt install ruby-full build-essential
+
+   # Fedora
+   sudo dnf install ruby ruby-devel
+   
+   # macOS (with Homebrew)
+   brew install ruby
+   ```
+2. Install and run:
+   ```bash
+   gem install bundler
+   bundle install
+   bundle exec jekyll serve
+   ```
+3. Open your browser and navigate to `http://localhost:4000`
+
 ## Contributing
 
 To contribute to these code conventions, please:
