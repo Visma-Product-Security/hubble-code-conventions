@@ -2,6 +2,8 @@
 
 This documentation provides coding standards and best practices for different technology stacks used within the organization.
 
+**Documentation:** [https://friendly-tribble-4j89m3n.pages.github.io/](https://friendly-tribble-4j89m3n.pages.github.io/)
+
 ## Technology Stacks
 
 ### [.NET Conventions](dotnet/README.md)
