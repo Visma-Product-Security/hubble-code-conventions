@@ -1,23 +1,30 @@
 # Hubble Code Conventions
 
-This repository contains coding standards and conventions for our development teams.
+This documentation provides coding standards and best practices for different technology stacks used within the organization.
 
-**Documentation Website**: [https://friendly-tribble-4j89m3n.pages.github.io/](https://friendly-tribble-4j89m3n.pages.github.io/)
+## Technology Stacks
 
-## Contents
+### [.NET Conventions](dotnet/README.md)
 
-- [.NET Coding Standards](./docs/dotnet/README.md)
-- [Angular Coding Standards](./docs/angular/README.md)
+Our .NET coding conventions cover C# best practices, formatting rules, and guidelines for building maintainable applications.
 
-## Purpose
+**Topics:**
+- [Naming Conventions](dotnet/naming-conventions.md)
+- [Code Structure](dotnet/code-structure.md)
+- [Type Usage](dotnet/type-usage.md)
+- [Formatting](dotnet/formatting.md)
+- [Error Handling](dotnet/error-handling.md)
+- [Testing](dotnet/testing.md)
+- [Code Quality](dotnet/code-quality.md)
 
-This documentation serves as a single source of truth for coding standards across our projects. All developers are expected to follow these guidelines to maintain consistency and quality in our codebase.
+### [Angular Conventions](angular/README.md)
+
+Our Angular coding conventions cover TypeScript and Angular-specific guidelines for building frontends.
 
 ## Contributing
 
-To contribute changes:
+To contribute to these code conventions, please:
 
-1. Create a branch from `master`
-2. Make your changes
-3. Submit a pull request for review
-4. Changes will be deployed to GitHub Pages upon merge to `master` 
+1. Create a branch with your proposed changes
+2. Submit a pull request for review
+3. Address any feedback before merging

@@ -2,13 +2,13 @@
 layout: default
 ---
 
-# Welcome to Our Code Conventions
+# Hubble Team Code Conventions
 
 This site contains the coding standards and guidelines for all development teams.
 
 ## .NET Guidelines
 
-Our [.NET coding standards](./docs/dotnet/README.md) cover:
+Our [.NET coding standards](./dotnet/README.md) cover:
 
 - Naming conventions
 - Code organization
@@ -18,13 +18,9 @@ Our [.NET coding standards](./docs/dotnet/README.md) cover:
 
 ## Angular Guidelines
 
-Our [Angular coding standards](./docs/angular/README.md) cover:
+Our [Angular coding standards](./angular/README.md) cover:
 
-- Project structure
-- Component design
-- State management
-- Testing
-- Performance guidelines
+- In progress...
 
 ## Why These Standards Matter
 

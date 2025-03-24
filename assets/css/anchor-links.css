@@ -7,17 +7,22 @@
   transition: opacity 0.2s ease-in-out;
 }
 
-h1, h2, h3, h4, h5, h6 {
+.main-content h1, 
+.main-content h2, 
+.main-content h3, 
+.main-content h4, 
+.main-content h5, 
+.main-content h6 {
   display: flex;
   align-items: center;
 }
 
-h1:hover .header-anchor,
-h2:hover .header-anchor,
-h3:hover .header-anchor,
-h4:hover .header-anchor,
-h5:hover .header-anchor,
-h6:hover .header-anchor,
+.main-content h1:hover .header-anchor,
+.main-content h2:hover .header-anchor,
+.main-content h3:hover .header-anchor,
+.main-content h4:hover .header-anchor,
+.main-content h5:hover .header-anchor,
+.main-content h6:hover .header-anchor,
 .header-anchor:focus {
   opacity: 1;
   text-decoration: none;

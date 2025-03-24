@@ -62,6 +62,7 @@
 
 ### Mocking
 - Use mocking frameworks (like Moq or NSubstitute) to isolate the system under test
+  
   ```csharp
   // Arrange
   var mockRepository = new Mock<ICustomerRepository>();
@@ -76,4 +77,4 @@
   // Assert
   result.ShouldNotBeNull();
   result.Name.ShouldBe("Test Customer");
-  
+  ```
